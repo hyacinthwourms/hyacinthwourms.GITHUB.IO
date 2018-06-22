@@ -1,0 +1,682 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800,900');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+div#bigContainer {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  outline: 1px solid #000;
+}
+
+div#bigContainerCategory {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  border-left: 1px solid #000;
+}
+
+img {
+  object-fit: cover;
+}
+
+/* ======================== NAVIGATION ======================== */
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  height: 100%;
+}
+
+/* TABLE NAV */
+
+/* nav table {
+    border-collapse: collapse;
+    width: 100%;
+    border-right: none;
+    border-top: none;
+}
+
+nav td, nav th {
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+
+}
+
+nav th {
+    height: 50px;
+} */
+
+
+
+/* A HREF NAV */
+
+nav {
+  height: 50px;
+  border-bottom: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a:link, nav a:visited, nav a:hover, nav a:active {
+  height: 50px;
+}
+
+
+.logo {
+  text-decoration: none;
+  color: orange;
+  font-weight: 800;
+  font-size: 25px;
+  transition: all .1s;
+  text-align: center;
+  padding: 9px;
+  flex: 3;
+}
+
+.logo:hover {
+  color:#000;
+  border-bottom: 1px solid #000;
+  font-size: 28px;
+  padding: 7px;
+}
+
+
+.navlink {
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+  /* transition: all .1s; */
+  font-weight: 500;
+  font-size: 14px;
+  padding: 16px 30px;
+}
+
+.navlink:hover {
+  background-color: orange;
+  color: #fff;
+  border-bottom: 1px solid #000;
+}
+
+.navlink a:link, .navlink a:visited, .navlink a:hover {
+  color:#000;
+  text-decoration: none;
+}
+
+.navlink a:active {
+  color:#fff;
+  text-decoration: none;
+}
+
+
+
+/* ======================== Front Page ======================== */
+
+
+div#homePageContent img {
+  width: 100%;
+}
+
+.splash {
+  padding: 50px;
+  border-bottom: 1px solid #000;
+  font-size: 28px;
+}
+
+.imgSplash {
+  border-bottom: 1px solid #000;
+}
+
+.homePageProject {
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
+
+.homePageLinks a {
+  color: #000;
+  text-decoration: none;
+}
+
+.homePageLinks h2 {
+  display: inline;
+  line-height: 40px;
+}
+
+.homePageLinks:hover {
+  opacity: .8;
+}
+
+div.homePageProjectText {
+  padding: 25px 30px 35px 25px;
+}
+
+div.homePageProjectText h2 {
+  margin-bottom: 10px;
+}
+
+div#homePageProjectTwo {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+div#homePageProjectTwo img{
+  height: 400px;
+}
+
+div#quoteContainer {
+  display: flex;
+  /* align-items: stretch; */
+}
+
+.leftQuote {
+  flex: 1;
+  padding: 50px;
+}
+
+.rightQuote {
+  flex: 2;
+  padding: 50px;
+  font-weight: 400;
+
+}
+
+
+
+/* ======================== Project Page ======================== */
+
+
+/* ========= PROJECT HEADER ========= */
+
+div#projectHeader {
+  padding: 45px;
+  border-bottom: 1px solid #000;
+}
+
+#projectHeader h1 {
+  font-size: 40px;
+}
+
+#projectHeader h2 {
+  font-weight: 400;
+  line-height: 40px;
+  font-size: 22px;
+}
+
+
+/* ========= PROJECT START ========= */
+
+div#projectStart {
+  border-bottom: 1px solid #000;
+  display: flex;
+}
+
+div#projectVideo {
+  flex: 2;
+  max-width: 1000px;
+  height: 500px;
+  background: grey;
+  overflow: hidden;
+  border-right: 1px solid #000;
+
+}
+
+div#projectVideo img {
+  width: 100%;
+}
+
+
+div#projectStartRight {
+  flex:1;
+  position: relative;
+}
+
+div#projectStartName {
+  width:100%;
+  display: flex;
+  border-bottom: 1px solid #000;
+  align-items: center;
+}
+
+div#projectStartName p {
+  padding-left: 15px;
+  font-size: 14px;
+}
+
+div#projectStartName img {
+  width:55px;
+  height:55px;
+  border-right: 1px solid #000;
+}
+
+div#projectStartFeatures {
+  padding: 35px;
+  font-size: 18px;
+}
+
+div#projectStartFeatures h3 {
+  padding-bottom: 25px;
+  font-size: 22px;
+
+}
+
+div#projectStartFeatures ul {
+  padding-left: 20px;
+}
+
+div#projectStartFeatures li {
+  margin-bottom: 20px;
+  color:orange;
+}
+
+li span {
+  color:#000;
+}
+
+
+div#projectStartLike {
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #000;
+  padding: 20px;
+  font-size: 15px;
+}
+
+
+
+/* ========= PROJECT NAV ========= */
+
+div#projectNav {
+  /* height: 50px; */
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  font-size: 15px;
+}
+
+div#projectNav a {
+  height: 100%;
+  padding: 20px;
+  text-decoration: none;
+  border-right:1px solid #000;
+  color: #000;
+}
+
+/* div#projectNav a:link {
+  color: #000;
+} */
+
+div#projectNav a:visited {
+  color: #000;
+}
+
+
+div#projectNav b, div#projectNav strong {
+  color: orange;
+}
+
+
+
+
+
+/* ========= PROJECT CONTAINER - about/comments/testimonials ========= */
+
+div#projectContainer {
+  display: flex;
+}
+
+div#projectAbout {
+  flex: 2;
+  padding-bottom: 30px;
+}
+
+div#projectAbout p {
+  padding: 30px 25px;
+  line-height: 25px;
+}
+
+.titleTop {
+  font-size: 23px;
+  padding: 30px 25px 0px 25px;
+}
+
+.titleinline {
+  font-size: 23px;
+  padding: 25px;
+}
+
+
+div#projectAbout img {
+  width: 100%;
+}
+
+
+/* ==== PROJECT COMMENTS ==== */
+
+#projectComments {
+  flex:2;
+}
+
+.comment {
+  width: 100%;
+  border-bottom: 1px solid #000;
+  font-size: 14px;
+}
+
+.commentProfile {
+  border-bottom: 1px solid #000;
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.commentProfile img {
+  height:100%;
+  width: 50px;
+}
+
+.commentName {
+  height: 100%;
+  font-weight: 600;
+}
+
+.commentDate {
+  height: 100%;
+  color: grey;
+}
+
+.commentDate, .commentName {
+  padding: 17px 18px;
+}
+
+.commentBody {
+  padding: 25px;
+  margin-bottom: 20px;
+  line-height: 19px;
+}
+
+.switcher.active {
+  font-weight: bold;
+  background: orange;
+}
+
+.plans {display:none}
+.plans.active {display:block}
+
+
+
+/* ==== PROJECT TESTIMONIALS ==== */
+
+
+div#testimonials {
+  flex:1;
+  border-left: 1px solid #000;
+}
+
+div#testimonialsHeader {
+  padding: 30px 25px;
+  border-bottom: 1px solid #000;
+}
+
+.testimonialQuote {
+  border-bottom: 1px solid #000;
+}
+
+.testimonialQuote h2 {
+  padding: 50px 30px;
+  font-weight: 300;
+}
+
+.testimonialName {
+  display: flex;
+  border-top: 1px solid #000;
+  align-items: center;
+  font-size: 13px;
+}
+
+.testimonialName p, .testimonialName b, .testimonialName strong {
+  padding-left: 5px;
+  font-weight: 600;
+}
+
+.testimonialName img {
+  width: 40px;
+  height: 40px;
+  border-right: 1px solid #000;
+}
+
+
+
+/* ========= YOU MAY BE INTERESTED IN ========= */
+
+div#interested h1 {
+  padding: 25px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+div#interestedContainer {
+  display: flex;
+}
+
+.interestedProject {
+  flex:1;
+  text-align: center;
+  /* transition: all .2s; */
+}
+
+.interestedProject img {
+  height: 350px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.interestedProject h2 {
+  padding: 20px;
+  font-weight: 500;
+}
+
+.interestedProject a:link, .interestedProject a:visited, .interestedProject a:hover, .interestedProject a:active {
+    text-decoration: none;
+    color: #000;
+}
+
+.interestedProject:hover img {
+  opacity: .8;
+}
+
+
+.borderRight {
+  border-right: 1px solid #000;
+}
+
+.borderLeft {
+  border-left: 1px solid #000;
+}
+
+
+/* ======================== CATEGORIES ======================== */
+
+div#filterContainer {
+  display: flex;
+  width: 100%;
+}
+
+div#filters {
+  height: 100%;
+  width: 214px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: none;
+  padding: 20px 30px;
+  line-height: 35px;
+}
+
+div#filters h3 {
+  color: #000;
+  font-weight: 600;
+  width: 100%;
+  font-size:17px;
+}
+
+.filter-group {
+  padding-bottom: 25px;
+}
+
+#filters a:link, #filters a:visited,  #filters a:active {
+  color: #000;
+  height: 30px;
+  text-decoration: none;
+}
+
+#filters a:hover {
+  background: orange;
+}
+
+
+#filters a:link.is-active, #filters a:visited.is-active, #filters a:hover.is-active, #filters a:active.is-active{
+  font-weight: 500;
+  background: orange;
+}
+
+#filters a:link.is-hidden, #filters a:visited.is-hidden, #filters a:hover.is-hidden, #filters a:active.is-hidden{
+  opacity: .3;
+}
+
+#items {
+  height: auto;
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  border-left: 1px solid #000;
+}
+
+.item {
+  color: #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  /* text-transform: uppercase; */
+  width: 50%;
+  height: 500px;
+  /* padding-bottom: 50%; */
+  position: relative;
+}
+
+
+.item a {
+  color: #000;
+  text-decoration: none;
+}
+
+.item:hover {
+ opacity: .8;
+}
+
+/* .item:nth-child(odd) {
+  border-left:1px solid #000;
+} */
+
+.itemText {
+  line-height: 40px;
+  border-top: 1px solid #000;
+  padding: 15px 15px 15px 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+  z-index: -1;
+}
+
+.itemText h2 {
+  display: inline;
+}
+
+.itemText p {
+  line-height: 20px;
+}
+
+.item img {
+  width: 100%;
+  height: 380px;
+  border-bottom: 1px solid #000;
+}
+
+.item.is-red h2 {
+  color: red;
+}
+.item.is-green h2 {
+  color: green;
+}
+.item.is-blue h2 {
+  color: blue;
+}
+.item.is-hidden {
+  display: none;
+}
+
+
+/* === Special MooreStarter Item === */
+
+.special {
+  outline: 5px solid orange;
+  outline-offset: -5px;
+  z-index: 5;
+  transition: all .1s;
+}
+
+.special:hover {
+  outline: 10px solid orange;
+  outline-offset: -10px;
+  opacity: 1;
+}
+
+
+
+
+/* ======================== FOOTER ======================== */
+
+footer {
+  border-top: 1px solid #000;
+  font-size: 12.5px;
+  padding: 40px 35px 35px 35px;
+}
+
+footer span {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer span p a:link, footer span p a:visited  {
+  margin-right: 30px;
+  color: #000;
+  text-decoration: none;
+}
+
+footer span p a:hover, footer span p a:active  {
+  color: orange;
+}
+
+.bottomFooter {
+  text-align: center;
+  padding: 60px 0px 0px 0px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+/* ========= end ========= */
